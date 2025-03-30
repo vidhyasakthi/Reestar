@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.container{
+    margin:10px;
+}
+.section-one{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.section-one__div li{
+    display: inline;
+    text-decoration: none;
+    color:rgb(189, 184, 184);
+    padding-top: 5px;
+}
+.section-two{
+    margin-top: 5px;
+    text-align: center;
+ 
+}
+.section-two__box{
+    width: 200px;
+    text-align: center;
+    border:2px solid black;
+    display: inline-block;
+}
+.section-two__box img{
+    width:200px;
+    height:300px;
+}
+.section-two__button{
+    background-color: black;
+    color:white;
+    padding:5px;
+    border: none;
+}
+.section-three{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 20px;
+}
+.section-three table{
+    margin-left: 630px;
+}
+.section-three table input{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.section-three button {
+    width: 400px;
+    background-color: yellow;
+    border: none;
+    margin: 10px auto; /* Centers the button horizontally */
+    display: block;
+}
+.section-three h1{
+    text-align: center;
+}
